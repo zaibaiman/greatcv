@@ -13,3 +13,15 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.styles([
+    'resources/assets/css/icomoon.css',
+    'resources/assets/css/bootstrap.css',
+    'resources/assets/css/core.css',
+    'resources/assets/css/components.css',
+    'resources/assets/css/colors.css',
+    'resources/assets/css/custom.css'
+], 'public/css/vendor.css');
+
+mix.copy('resources/assets/fonts', 'public/fonts');
+mix.copy('resources/assets/images', 'public/images');
