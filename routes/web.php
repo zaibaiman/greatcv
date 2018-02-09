@@ -21,3 +21,5 @@ Route::view('/signup', 'signup');
 Route::view('/dashboard', 'dashboard.dashboard');
 Route::view('/stats', 'stats');
 Route::view('/covers/{id}', 'cover.letter');
+Route::view('/cvs/{id}', 'cv.basic');
+Route::view('/cvs/{id}/preview', 'cv.preview');

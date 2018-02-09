@@ -7830,3 +7830,8 @@ h6.panel-title {
 .sidebar-xs .sidebar-main .navigation>li>a>i {
     font-size: 26px;
 }
+
+.panel-heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

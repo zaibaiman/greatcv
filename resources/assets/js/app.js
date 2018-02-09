@@ -17,6 +17,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('cover-letter-component', require('./components/CoverLetterComponent.vue'));
+Vue.component('basic-editor-component', require('./components/BasicEditorComponent.vue'));
 
 const app = new Vue({
     el: '#app'

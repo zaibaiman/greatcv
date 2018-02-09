@@ -33,9 +33,9 @@
 
                 <h6 class="text-semibold">Or choose one of the options below</h6>
                 <div class="mt-15">
-                    <button type="button" class="btn btn-float btn-float-lg border-primary text-primary btn-flat"><i class="icon-search4"></i> <span class="text-light">Import resume/CV</span></button>
-                    <button type="button" class="btn btn-float btn-float-lg border-primary text-primary btn-flat ml-10"><i class="icon-html52"></i> <span class="text-light">Use template example</span></button>
-                    <button type="button" class="btn btn-float btn-float-lg border-primary text-primary btn-flat ml-10"><i class="icon-spinner4"></i> <span class="text-light">Start from scratch</span></button>                
+                    <button type="button" class="btn btn-float btn-float-lg border-primary text-primary btn-flat"><i class="icon-search4"></i> <span class="text-light mt-15">Import resume/CV</span></button>
+                    <button type="button" class="btn btn-float btn-float-lg border-primary text-primary btn-flat ml-10"><i class="icon-html52"></i> <span class="text-light mt-15">Use template example</span></button>
+                    <button type="button" class="btn btn-float btn-float-lg border-primary text-primary btn-flat ml-10"><i class="icon-spinner4"></i> <span class="text-light mt-15">Start from scratch</span></button>                
                 </div>
             </div>
         </div>
