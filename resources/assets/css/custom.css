@@ -1,3 +1,17 @@
 .navbar-nav>li>a {
     font-size: 14px;
 }
+
+/* .modal-header .close {
+    font-size: 44px;
+    top: 4px;
+} */
+
+.form-control {
+    border: 1px solid #e6e6e6;
+    background-color: #f7f7f7;
+}
+
+.btn-flat {
+    border-width: 1px;
+}

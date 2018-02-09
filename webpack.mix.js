@@ -23,5 +23,10 @@ mix.styles([
     'resources/assets/css/custom.css'
 ], 'public/css/vendor.css');
 
+mix.scripts([
+    'resources/assets/js/vendor/jquery.js',
+    'resources/assets/js/vendor/bootstrap.js'
+], 'public/js/vendor.js')
+
 mix.copy('resources/assets/fonts', 'public/fonts');
 mix.copy('resources/assets/images', 'public/images');
