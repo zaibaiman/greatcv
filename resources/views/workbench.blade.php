@@ -1,10 +1,10 @@
 @extends('app')
 
 @section('body')
-    <div class="navbar-top">
+    <div id="app" class="navbar-top">
         <div class="navbar navbar-inverse navbar-fixed-top bg-danger-600">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
+                <a href="/dashboard" class="navbar-brand" href="index.html">
                     <img src="images/logo_light.png" alt="">
                 </a>
                 @yield('navbar-left')
@@ -31,7 +31,7 @@
                                 <span style="visibility: hidden">.</span><i class="icon-more"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right">
-                                <li><a (click)="signOutBtnClick()"><i class="icon-switch2"></i> Logout</a></li>
+                                <li><a><i class="icon-switch2"></i> Logout</a></li>
                             </ul>
                         </li>
                     </ul>

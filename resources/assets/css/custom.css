@@ -1,3 +1,19 @@
+.navbar {
+    padding-right: 0px;
+}
+
+.navbar-nav {
+    margin-left: 0px;
+}
+
+.navbar-nav>li {
+    border-left: 1px solid #ca2824;
+}
+
+.navbar-nav>li:last-child {
+    border-right: 1px solid #ca2824;
+}
+
 .navbar-nav>li>a {
     font-size: 14px;
 }
@@ -14,4 +30,16 @@
 
 .btn-flat {
     border-width: 1px;
+}
+
+.navigation li {
+    border-bottom: 1px solid lightgrey;
+}
+
+.navigation {
+    padding-top: 0px;
+}
+
+.sidebar-xs .sidebar-main .navigation>li>a>i {
+    font-size: 26px;
 }

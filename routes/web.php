@@ -20,3 +20,4 @@ Route::view('/signin', 'signin');
 Route::view('/signup', 'signup');
 Route::view('/dashboard', 'dashboard.dashboard');
 Route::view('/stats', 'stats');
+Route::view('/covers/{id}', 'cover.letter');

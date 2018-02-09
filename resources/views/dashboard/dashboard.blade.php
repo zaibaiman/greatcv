@@ -14,8 +14,8 @@
                 <div class="page-header" style="border: 1px solid #ddd; border-bottom: 0;">
                     <div class="page-header-content">
                         <div class="page-title">
-                            <button type="button" class="btn border-slate text-slate-800 btn-flat" data-toggle="modal" data-target="#new_modal"><i class="icon-plus2 icon-left"></i> New</button>
-                            <button class="btn border-slate text-slate-800 btn-flat ml-10">Add Cover Letter</button>
+                            <button type="button" class="btn bg-primary btn-flat" data-toggle="modal" data-target="#new_modal"><i class="icon-plus2 icon-left"></i> <span class="text-light">New</span></button>
+                            <a href="/covers/1" class="btn border-primary text-primary btn-flat ml-10"><span class="text-light">Add Cover Letter</span></a>
                         </div>
                     </div>
                 </div>

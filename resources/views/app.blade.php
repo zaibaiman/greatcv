@@ -12,10 +12,14 @@
 
         <!-- <link href="/css/app.css" rel="stylesheet" type="text/css"> -->
         <link href="/css/vendor.css" rel="stylesheet" type="text/css">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+
         <script src="/js/vendor.js" type="text/javascript"></script>
-        <script src="/js/app.js" type="text/javascript"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
     </head>
     <body>
         @yield('body')
+
+        <script src="/js/app.js" type="text/javascript"></script>
     </body>
 </html>
